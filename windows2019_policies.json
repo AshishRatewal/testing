@@ -1,6 +1,6 @@
 [
     {
-        "Category": "GPO",
+        "Category": "Ashish",
         "Enabled": "True",
         "Policy Description": "1.1.6 (L1) Ensure 'Store passwords using reversible encryption' is",
         "Remediation": "To establish the recommended configuration via GP, set the following UI path to Disabled: Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Account Policies\\Password Policy\\Store passwords using reversible encryption Default Value: Disabled. References: 1. https://www.cisecurity.org/white-papers/cis-password-policy-guide/ CIS Controls: Controls Control IG 1 IG 2 IG 3 Version 3.11 Encrypt Sensitive Data at Rest Encrypt sensitive data at rest on servers, applications, and databases containing sensitive data. Storage-layer encryption, also known as server-side encryption, v8 meets the minimum requirement of this Safeguard. Additional encryption methods \u25cf \u25cf may include application-layer encryption, also known as client-side encryption, where access to the data storage device(s) does not permit access to the plain-text data. v7 16.4 Encrypt or Hash all Authentication Credentials \u25cf \u25cf Encrypt or hash with a salt all authentication credentials when stored. Page 45 1.2 Account Lockout Policy This section contains recommendations for account lockout policy. Page 46"
